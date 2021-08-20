@@ -14,7 +14,7 @@ Once the Postfix server is installed, add a hook in Postfix's `master.cf` config
     myhook unix - n n - - pipe
     flags=F user=amathur argv=/mnt/volume_nyc3_01/script.sh ${sender} ${size} ${recipient}
 
-Replace `user=amathur` with the name of your user. The `master.cf` file available in this repository describes how to incorporate the hook in the Postfix configuraiton file.
+Replace `user=amathur` with the name of your user. The `master.cf` file available in this repository describes how to incorporate the hook in the Postfix configuration file.
 
 ## Python setup
 Create a virtual environment with the packages listed in the `requirements.txt` file.
