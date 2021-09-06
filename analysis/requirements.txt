@@ -28,6 +28,7 @@ dill==0.3.4
 eli5==0.11.0
 emoji==1.4.2
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.1.0/en_core_web_lg-3.1.0-py3-none-any.whl
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0-py3-none-any.whl
 entrypoints==0.3
 filelock==3.0.12
 flatbuffers==1.12
@@ -114,6 +115,7 @@ qtconsole==5.1.1
 QtPy==1.10.0
 regex==2021.8.21
 requests==2.26.0
+requests-file==1.5.1
 requests-oauthlib==1.3.0
 rsa==4.7.2
 sacremoses==0.0.45
@@ -145,6 +147,7 @@ terminado==0.11.1
 testpath==0.5.0
 thinc==8.0.8
 threadpoolctl==2.2.0
+tldextract==3.1.2
 tokenizers==0.10.3
 toml==0.10.2
 torch==1.9.0
