@@ -14,3 +14,4 @@ Create a virtual environment with the packages listed in the `requirements.txt` 
 	* `Forward Referencing Analysis.ipynb` contains our analysis of `forward referencing` clickbait.
 	* `Sensationalism Analysis.ipynb` contains our analysis of `sensationalism` clickbait.
 	* `Urgency Analysis.ipynb` contains our analysis of `urgency` clickbait.
+        * `Aggregate Analysis.ipynb` aggregates all the results from the previous notebooks across senders.
